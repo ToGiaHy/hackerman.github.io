@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+#d{
+    width: 100%;
+    border:1px solid black;
+}
+th,td{
+    border:1px solid black ;
+}
+
+  .description{
+    color: black;
+    position:relative;
+    left: 50.5%; 
+   }
+   .box{
+     height: 85%;
+    width: 36% ;
+    background-color: rgb(240, 240, 240);
+    position:absolute;
+    left: 50.4%;
+   }
+#picture{
+  height: 85%;
+  width: 36%;
+  position: absolute;
+  left: 14.5%;
+}
+.Home_page{
+  background-color: #242526;
+}
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 8%;
+  background-color: rgb(60, 60, 60);
+  position: absolute;
+  top: 40%;
+  left: 4%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  overflow: auto;
+}
+
+.navigation li a {
+  display: block;
+  color: white;
+  padding: 8% 16%;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #04AA6D;
+  color:  	rgb(255,250,250);
+}
+
+
+.card {
+  position: absolute;
+  left: 15%;
+  top: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 15%;
+  background-color:rgb(60, 60, 60)
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.card1 {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 15%;
+  background-color:rgb(60, 60, 60) ;
+}
+
+.card1:hover {
+  box-shadow: 0 8% 16% 0 rgba(0,0,0,0.2);
+}
+
+.container1 {
+  padding: 2% 10%;
+}
+.container1 h4{
+  color: white;
+}
+.container h4{
+  color: white;
+}
+.Projects_page{
+  background-color:rgb(105,105,105) ;
+}
+#Projects{
+  color: white;
+  font-size: 400%;
+  text-align: center;
+}
+#myBtn{
+  position:absolute;
+  bottom: 0%;
+  padding: 1%;
+  background-color: rgb(60, 60, 60) ;
+  color: white;
+}
+.coding_p{
+  font-size: 150%;
+}
+.Anonimity{
+  position: absolute;
+  top: 25%;
+  color: white;
+}
+#photo_coding{
+  background-image: url(Asset/5.jpg);
+  height: 100%;
+  width: 60%;
+  position: absolute;
+  right: 0%;
+
+}
+#background{
+  background-color: rgb(60, 60, 60);
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  left: 0%;
+}
+#back{
+  position: absolute;
+  top: 2%;
+  padding: 0.15%;
+  background-color: grey;
+  text-decoration: none;
+  color: BLACK;
+}
+#photo_encrypted{
+  background-image: url(Asset/technology-encryption-keyvisual.jpg);
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0%;
+
+}
+.Contacts{
+  position: absolute;
+  left: 15%;
+  bottom: 0%;
+  color: white;
+}
+.Contacts_background{
+  background-color:rgb(105,105,105)  ;
+}
+#e{
+  color: white;
+  font-size: 400%;
+  text-align: center;
+}
+.Give{
+  position: absolute;
+  left: 15%;
+  top: 35%;
+  color: white;
+}
+#Cypher{
+  position: relative;
+  left: 42%;
+  height: 15%;
+  width: 15%;
+  top: 15em;
+}
+#Start{
+  text-decoration: none;
+  padding: 1% 4%;
+  background-color: rgb(60, 60, 60);
+  position: relative;
+  color: white;
+  top: 17em;
+  left: 29%;
+}
+
+
+.dmc {
+  position: absolute;
+  top: 20%;
+  left: 38%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  color: black ;
+  background-color: white;
+}
+
+.title {
+  color: black;
+  font-size: 18px;
+}
+
